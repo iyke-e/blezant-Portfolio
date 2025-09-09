@@ -8,7 +8,7 @@ const MobileNav = ({ menuOpen, setMenuOpen, toggleScroll }) => {
         toggleScroll()
     }
     return (
-        <div className='space-y-12 px-4 py-4 absolute w-full h-[calc(100dvh-60px)] bg-background/80 left-0 top-[60px] backdrop-blur-2xl'>
+        <div className='space-y-12 px-4 py-4 absolute w-full h-[calc(100dvh-60px)] bg-background/92 left-0 top-[60px] backdrop-blur-2xl'>
             <div >
                 <p className='text-sm text-gray-400 mb-6'>Menu</p>
                 <nav >
