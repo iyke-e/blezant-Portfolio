@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0d1117; /* Dark background */
+  --color-surface: #161b22; /* Card/section bg */
+  --color-overlay: #1e2230; /* Slightly lighter overlay */
+
+  --color-primary: #3a1856; /* Deep purple brand color */
+  --color-primary-hover: #220f31; /* Brighter purple for hover */
+
+  --color-secondary: #8b5cf6; /* Vibrant violet accent */
+  --color-secondary-hover: #a78bfa; /* Lighter violet hover */
+
+  --color-text-primary: #f8fafc; /* Almost white for strong readability */
+  --color-text-secondary: #cbd5e1; /* Softer gray text */
+  --color-text-muted: #94a3b8; /* Muted text for less emphasis */
+
+  --color-success: #22c55e; /* Green still works */
+  --color-warning: #eab308; /* Slightly deeper yellow */
+  --color-danger: #ef4444; /* Red alert color */
+
+  --color-border: #2d2d3a; /* Border tone matching overlay */
+}
+
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl font-semibold  xl:text-7xl text-text-primary leading-14 md:leading-22;
+  }
+
+  h2 {
+    @apply font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-6xl leading-relaxed text-text-primary;
+  }
+
+  h3 {
+    @apply font-medium text-xl md:text-2xl lg:text-3xl xl:text-4xl text-text-primary;
+  }
+  h4 {
+    @apply font-medium text-xl md:text-2xl lg:text-3xl xl:text-4xl text-text-primary;
+  }
+
+  p,
+  a,
+  li,
+  label,
+  input {
+    @apply text-base md:text-lg xl:text-xl text-text-secondary leading-relaxed;
+  }
+
+  small,
+  .caption {
+    @apply text-sm md:text-base text-text-muted;
+  }
+}
+
+/* 🛠️ Custom Utilities */
+@utility section-spacing {
+  @apply py-16 md:py-24 lg:py-32;
+}
+
+@utility section-gap {
+  @apply my-16 md:my-24 lg:my-32;
+}
+
+@utility section-inline {
+  @apply px-6 md:px-12 lg:px-20;
+}
+
+@utility btn-primary {
+  @apply inline-block rounded-full cursor-pointer bg-primary text-text-primary px-6 py-3 font-medium
+         hover:bg-primary-hover transition-colors;
+}
+
+@utility btn-secondary {
+  @apply inline-block rounded-full cursor-pointer bg-secondary text-background px-6 py-3 font-medium
+         hover:bg-secondary-hover transition-colors;
+}
+
+@utility btn-outline {
+  @apply inline-block rounded-full cursor-pointer border border-border text-text-primary px-6 py-3 font-medium
+         hover:bg-surface transition-colors;
+}
+
+@utility section-header {
+  @apply text-center mb-12;
+}
+
+@utility section-title {
+  @apply text-3xl md:text-4xl font-bold text-primary;
+}
+
+@utility section-subtitle {
+  @apply text-text-secondary mt-2 max-w-2xl mx-auto;
+}
+
+.stop-scroll {
+  height: 100dvh;
+  overflow: hidden;
+}
