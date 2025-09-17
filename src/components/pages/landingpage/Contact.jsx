@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="scroll-mt-12 section-inline my-20 ">
+    <div id="contact" className="scroll-mt-14 md:scroll-mt-12 section-inline my-20 ">
       <h2 className={"mb-8 text-center"}>Contact</h2>
 
       <div className="grid md:flex items-center gap-8 md:gap-20">

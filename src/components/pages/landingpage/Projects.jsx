@@ -5,7 +5,10 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div id="project" className={"section-inline mt-8 scroll-mt-12"}>
+    <div
+      id="project"
+      className={"section-inline mt-8 scroll-mt-14 md:scroll-mt-12"}
+    >
       <h2 className={"mb-4 text-center"}>My Projects</h2>
       <p className={"max-w-220 text-center mx-auto"}>
         Turning ideas into functional mobile experiences.

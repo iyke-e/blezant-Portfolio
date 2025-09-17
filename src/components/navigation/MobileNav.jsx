@@ -4,22 +4,30 @@ const MobileNav = ({ menuOpen, setMenuOpen, toggleScroll }) => {
     toggleScroll();
   };
   return (
-    <div className="space-y-12 px-4 py-4 absolute w-full h-[calc(100dvh-60px)] bg-background/92 left-0 top-[60px] backdrop-blur-2xl">
+    <div className="space-y-12 px-4 py-4 absolute w-full h-[calc(100dvh-60px)] bg-background/92 left-0 top-[60px] !backdrop-blur-3xl">
       <div>
         <p className="text-sm text-gray-400 mb-6">Menu</p>
         <nav>
           <ul className="grid gap-6">
             <li className="text-2xl hover:text-gray-500" onClick={closeMenu}>
-              <a href="#">Home</a>
+              <a className="text-2xl hover:text-gray-500" href="#">
+                Home
+              </a>
             </li>
             <li className="text-2xl hover:text-gray-500" onClick={closeMenu}>
-              <a href="#project">Project</a>
+              <a className="text-2xl hover:text-gray-500" href="#project">
+                Project
+              </a>
             </li>
             <li className="text-2xl hover:text-gray-500" onClick={closeMenu}>
-              <a href="#about">About</a>
+              <a className="text-2xl hover:text-gray-500" href="#about">
+                About
+              </a>
             </li>
             <li className="text-2xl hover:text-gray-500" onClick={closeMenu}>
-              <a href="#contact">Contact</a>
+              <a className="text-2xl hover:text-gray-500" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </nav>

@@ -34,11 +34,13 @@ const About = () => {
   return (
     <div
       id="about"
-      className={"section-inline mt-20 md:mt-40 scroll-mt-12 text-center"}
+      className={
+        "section-inline mt-20 md:mt-40 scroll-mt-14 md:scroll-mt-12 text-center"
+      }
     >
       <h2 className={"mb-4"}>About Me</h2>
-      <p className={"max-w-220 mx-auto"}>
-        Hi,I am Blessing a mobile app developer with 1+ year of hands-on
+      <p className={"max-w-220 text-lg mx-auto"}>
+        Hi, I am Blessing a mobile app developer with 1+ year of hands-on
         experience in Flutter and React Native, specializing in building
         cross-platform Android and iOS applications. I have experience in
         integrating real-time APIs, Firebase services, and state management
