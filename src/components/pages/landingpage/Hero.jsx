@@ -11,14 +11,14 @@ const Hero = () => {
       style={{ backgroundImage: `url(${bg})` }}
       className={"bg-center scroll-mt-12 bg-cover bg-no-repeat"}
     >
-      <div className=" bg-gradient-to-b from-background/80 to-background backdrop-blur-[80px] py-20 md:py-30 ">
+      <div className=" bg-gradient-to-b from-background/80 to-background backdrop-blur-[80px] pt-20 pb-10 md:pt-30 ">
         <div
           className={
             "section-inline grid  md:grid-cols-[5fr_3fr] gap-8 md:gap-16 items-center"
           }
         >
           <div>
-            <h1 className="mb-4 md:mb-12 ">
+            <h1 className="mb-4 md:mb-6 ">
               Creating Seamless Mobile Experiences.
             </h1>
             <p>
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="w-full  aspect-[3.2/4] bg-gray-400 pt-8 rounded-xl overflow-hidden">
+          <div className="w-full aspect-[3.2/4] bg-gray-400 pt-8 rounded-xl overflow-hidden">
             <img
               src={heropics}
               alt="hero"

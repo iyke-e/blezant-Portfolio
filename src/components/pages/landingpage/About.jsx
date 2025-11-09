@@ -35,27 +35,27 @@ const About = () => {
     <div
       id="about"
       className={
-        "section-inline mt-20 md:mt-40 scroll-mt-14 md:scroll-mt-12 text-center"
+        "section-inline md:bg-white/5 rounded-2xl md:m-16 py-20  scroll-mt-14 md:scroll-mt-12 text-center"
       }
     >
       <h2 className={"mb-4"}>About Me</h2>
-      <p className={"max-w-220 text-lg mx-auto"}>
-        Hi, I am Blessing a mobile app developer with 1+ year of hands-on
-        experience in Flutter and React Native, specializing in building
-        cross-platform Android and iOS applications. I have experience in
-        integrating real-time APIs, Firebase services, and state management
-        solutions like Riverpod and Redux to create responsive and scalable
-        apps. I am passionate about crafting intuitive, user-friendly interfaces
-        and optimizing performance to deliver seamless experiences. I also have
-        a strong understanding of version control (Git), clean architecture, and
-        modular code organization, which ensures maintainable and efficient
-        projects. I enjoy learning new technologies, staying up-to-date with
-        trends in mobile development, and contributing to projects that have a
-        tangible impact.
+      <p className={" text-lg text-justify mx-auto"}>
+        Hi, I am Adu Blessing a mobile app developer with 2+ year of hands-on
+        experience in Flutter , React Native and Kotlin, specializing in
+        building cross-platform Android and iOS applications. I have experience
+        in integrating real-time APIs, Firebase services, and state management
+        solutions like Riverpod ,Get X and Bloc to create responsive and
+        scalable apps. I am passionate about crafting intuitive, user-friendly
+        interfaces and optimizing performance to deliver seamless experiences. I
+        also have a strong understanding of version control (Git), clean
+        architecture, and modular code organization, which ensures maintainable
+        and efficient projects. I enjoy learning new technologies, staying
+        up-to-date with trends in mobile development, and contributing to
+        projects that have a tangible impact.
       </p>
 
       <div className={"mt-10"}>
-        <h3 className={"mb-8"}>My Tech Stack</h3>
+        <h4 className={"mb-8"}>My Tech Stack</h4>
         <ul className="flex gap-2 items-center justify-center flex-wrap">
           {techStack.map((item, index) => {
             // Generate a random light color with some transparency

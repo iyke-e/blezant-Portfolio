@@ -1,7 +1,5 @@
-import React from "react";
-import project2 from "../../../assets/project2.jpg";
-import project1 from "../../../assets/project1.webp";
-import { FaGithub } from "react-icons/fa";
+import { FaDownload, FaGithub } from "react-icons/fa";
+import { projectlist } from "../../../data/data";
 
 const Projects = () => {
   return (
@@ -29,10 +27,18 @@ const Projects = () => {
             <div className="w-full">
               <h4 className={"mb-4"}>{item.name}</h4>
               <p>{item.description}</p>
-              <div className={" mt-8"}>
-                <a href={item.githubUrl}>
-                  <FaGithub className={"w-10 h-10"} />
-                </a>
+              <div className={" mt-8 flex gap-6 items-center"}>
+                {item.githubUrl && (
+                  <a href={item.githubUrl}>
+                    <FaGithub className={"w-8 h-8"} />
+                  </a>
+                )}
+
+                {item.liveUrl && (
+                  <a href={item.liveUrl}>
+                    <FaDownload className={"w-8 h-8"} />
+                  </a>
+                )}
               </div>
             </div>
           </div>
@@ -43,14 +49,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-const projectlist = [
-  {
-    name: "Xswap",
-    description:
-      "Xswap is a Flutter mobile application for Android and iOS that allows users to perform cross-chain cryptocurrency swaps. It provides a smooth, responsive experience while displaying live market prices and data for a wide range of cryptocurrencies",
-    image: project2,
-    githubUrl: "https://github.com/Blez-dev/Xswap",
-    liveUrl: "",
-  },
-];
