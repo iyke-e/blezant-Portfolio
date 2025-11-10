@@ -1,35 +1,4 @@
-const techStack = [
-  "Flutter",
-  "Dart",
-  "Riverpod",
-  "GetX",
-  "Flutter Animations",
-  "Flutter Widgets",
-  "Flutter Packages",
-  "React Native",
-  "Expo",
-  "JavaScript",
-  "TypeScript",
-  "Redux",
-  "Firebase",
-  "Firestore",
-  "Cloud Functions",
-  "Authentication",
-  "Push Notifications",
-  "Android",
-  "iOS",
-  "VS Code",
-  "Figma",
-  "Git",
-  "GitHub",
-  "CI/CD (GitHub Actions, Codemagic)",
-  "REST & GraphQL APIs",
-  "JSON",
-  "SQLite",
-  "SharedPreferences",
-  "Secure Storage",
-];
-
+import { techStack } from "../../../data/techstackdata";
 const About = () => {
   return (
     <div

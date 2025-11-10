@@ -1,8 +1,7 @@
 import Button from "../../common/Button";
 import heropics from "../../../assets/blessing.png";
 import bg from "../../../assets/bg.jpg";
-import Heromask from "../../../assets/mask.jpg";
-import Header from "../../layout/Header";
+
 
 const Hero = () => {
   return (

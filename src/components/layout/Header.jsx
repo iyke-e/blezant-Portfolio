@@ -2,7 +2,7 @@ import Navbar from "../navigation/Navbar";
 import logo from "../../assets/logo.svg";
 import Button from "../common/Button";
 import { MdOutlineMenuOpen } from "react-icons/md";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MobileNav from "../navigation/MobileNav";
 
 const Header = () => {
