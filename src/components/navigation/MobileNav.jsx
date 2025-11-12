@@ -1,6 +1,6 @@
 const MobileNav = ({ menuOpen, setMenuOpen, toggleScroll }) => {
   const closeMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen(false);
     toggleScroll();
   };
   return (
