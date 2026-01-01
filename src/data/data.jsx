@@ -13,7 +13,7 @@ export const projectlist = [
   {
     name: "eShop",
     description:
-      "eShop is a mobile marketplace that enables users to list their smartphones for sale and connect directly with interested buyers. The app streamlines the entire process from creating product listings to facilitating secure buyer-seller interactions making phone trading faster, simpler, and more convenient",
+      "eShop eShop is a mobile marketplace that enables users to list their smartphones for sale and connect directly with interested buyers. The app streamlines the entire process—from creating product listings to facilitating secure buyer-seller interactions—making phone trading faster, simpler, and more convenient.The application has been successfully deployed to the Google Play Store and is currently available under Early Access . This deployment involved preparing production builds, configuring Play Store requirements, managing release tracks, and handling app submission workflows, demonstrating hands-on experience with end-to-end mobile app deployment.",
     image: eshop,
     githubUrl: "https://github.com/Blez-dev/Xswap",
     liveUrl:

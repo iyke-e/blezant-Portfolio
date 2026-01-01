@@ -1,7 +1,6 @@
 import Button from "../../common/Button";
-import heropics from "../../../assets/blessing.png";
+import heropics from "../../../assets/blessing.jpeg";
 import bg from "../../../assets/bg.jpg";
-
 
 const Hero = () => {
   return (
@@ -39,7 +38,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="w-full aspect-[3.2/4] bg-gray-400 pt-8 rounded-xl overflow-hidden">
+          <div className="w-full overflow-hidden">
             <img
               src={heropics}
               alt="hero"
